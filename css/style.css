@@ -94,3 +94,12 @@ h3{
 .m-y{
     margin: 0 1rem;
 }
+.sel-btn{
+    margin: 2rem 0;
+}
+.col1-3{
+    width: calc((100% - 4rem)/3);
+    /*! DEBUG */
+    height: 1000px;
+    border: 1px dashed red;
+}
