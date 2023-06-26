@@ -31,6 +31,14 @@ h1{
     font-size: 5rem;
     margin: 3rem 0;
 }
+h2{
+    font-size: 2.5rem;
+    margin: 3rem 0;
+}
+h3{
+    font-size: 2rem;
+    margin: 1rem 0;
+}
 .blue a{
     color: #fff;
 }
@@ -76,4 +84,13 @@ h1{
 }
 .gap{
     gap: 2rem;
+}
+.round-sel{
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    border: 5px solid #0061ff;
+}
+.m-y{
+    margin: 0 1rem;
 }
