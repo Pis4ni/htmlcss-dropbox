@@ -33,11 +33,11 @@ h1{
 }
 h2{
     font-size: 2.5rem;
-    margin: 3rem 0;
+    margin: 3rem 0 ;
 }
 h3{
     font-size:  1.7rem;
-    margin: 1rem 0;
+    margin:0 0 1rem 0;
 }
 button{
     border: none;
@@ -45,7 +45,8 @@ button{
     text-align: center;
     background-color: #0061ff;
     color: #fff;
-    padding: .5rem 1rem
+    padding: .7rem 2rem;
+    cursor: pointer;
 }
 .blue-bg a{
     color: #fff;
@@ -86,9 +87,6 @@ button{
 .between{
     justify-content: space-between;
 }
-.start{
-    justify-content:;
-}
 .ycenter{
     align-items: center;
 }
@@ -118,9 +116,6 @@ button{
 }
 .col100{
     width: 100% ;
-    /*! DEBUG */
-    height: 200px;
-    border: 1px dashed red;
 }
 .card{
     border: 1px solid #8e8e8e;
@@ -163,5 +158,12 @@ button{
 .plan{
     font-weight: 200;
     color: #6e6e6e;
+}
+.resume-l i{
+    font-weight: 900;
+    font-size: 1.1rem;
+}
+.wide-content{
+    margin: 2rem 0 0 0;
 }
 /* ! sezione > container > riga > colonna */
