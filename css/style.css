@@ -1,169 +1,189 @@
 /*! GENERALS */
 
-*{
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
 }
-body{
-    font-family: Arial, Helvetica, sans-serif;
+body {
+	font-family: Arial, Helvetica, sans-serif;
 }
-nav{
-    margin: 0;
+nav {
+	margin: 0;
 }
-header{
-    height: 90px;
-    padding: 1rem;
+header {
+	height: 90px;
+	padding: 1rem;
 }
-header ul{
-    list-style-type: none;
-    display: flex;  
+header ul {
+	list-style-type: none;
+	display: flex;
 }
-nav a{
-    color: black;
-    text-decoration: none;
-    font-size: 1.3rem;
+nav a {
+	color: black;
+	text-decoration: none;
+	font-size: 1.3rem;
 }
-nav li{
-    padding: .5rem 1rem;
+nav li {
+	padding: 0.5rem 1rem;
 }
-h1{
-    font-size: 5rem;
-    margin: 3rem 0;
+h1 {
+	font-size: 5rem;
+	margin: 3rem 0;
 }
-h2{
-    font-size: 2.5rem;
-    margin: 3rem 0 ;
+h2 {
+	font-size: 2.5rem;
+	margin: 3rem 0;
 }
-h3{
-    font-size:  1.7rem;
-    margin:0 0 1rem 0;
+h3 {
+	font-size: 1.7rem;
+	margin: 0 0 1rem 0;
 }
-button{
-    border: none;
-    font-size: 1rem;
-    text-align: center;
-    background-color: #0061ff;
-    color: #fff;
-    padding: .7rem 2rem;
-    cursor: pointer;
+button {
+	border: none;
+	font-size: 1rem;
+	text-align: center;
+	background-color: #0061ff;
+	color: #fff;
+	padding: 0.7rem 2rem;
+	cursor: pointer;
 }
-.blue-bg a{
-    color: #fff;
-}
-.jumbo{
+img{
     width: 100%;
 }
-.col{
-    width: 50%;
+p{
+    color: #5d5d5d;
+}
+.blue-bg a {
+	color: #fff;
+}
+.jumbo {
+    width: 100%;
 }
 /*! UTILS */
-.blue-bg{
+.col {
+    width: 50%;
+}
+.col1-3 {
+    width: calc((100% - 4rem) / 3);
+}
+.col60{
+    width: 60%;
+}
+.col40{
+    width: 40%;
+}
+.col100 {
+    width: 100%;
+}
+.blue-bg {
     color: #fff;
-    background-color: #0061ff;
+	background-color: #0061ff;
 }
-.blue{
-    color: #0061ff;
-    background-color:#fff;
-
+.blue {
+	color: #0061ff;
+	background-color: #fff;
 }
-.container-full{
-   max-width: 1920px;
-    margin: 0 auto;
-}
-
-.container-big{
-    max-width: 1200px;
-    margin: 0 auto;
+.container-full {
+	max-width: 1920px;
+	margin: 0 auto;
 }
 
-.container{
-    max-width: 1000px;
-    margin: 0 auto;
+.container-big {
+	max-width: 1200px;
+	margin: 0 auto;
 }
-.flex{
-    display: flex;
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
 }
-.between{
-    justify-content: space-between;
+
+.flex {
+	display: flex;
 }
-.ycenter{
-    align-items: center;
+.between {
+	justify-content: space-between;
 }
-.wrap{
-    flex-wrap: wrap;
+.ycenter {
+	align-items: center;
 }
-.switch{
-    flex-direction: column;
+.wrap {
+	flex-wrap: wrap;
 }
-.gap{
-    gap: 2rem;
+.switch {
+	flex-direction: column;
 }
-.round-sel{
+.gap {
+	gap: 2rem;
+}
+.sel-btn {
+    margin: 2rem 0;
+}
+.m-y {
+    margin: 0 1rem;
+}
+.round-sel {
     height: 1rem;
     width: 1rem;
     border-radius: 50%;
     border: 5px solid #0061ff;
 }
-.m-y{
-    margin: 0 1rem;
+.card {
+	border: 1px solid #8e8e8e;
+	height: 100%;
 }
-.sel-btn{
+.card-header {
+	border-bottom: 1px solid #8e8e8e;
+	width: 100%;
+	text-align: center;
+	height: 3rem;
+	line-height: 3rem;
+}
+.card-main {
+	padding: 2rem;
+	height: 100%;
+}
+.card ul {
+	list-style-type: none;
+}
+.card ul li {
+	margin: 2rem 0;
+	width: 100%;
+}
+.card i {
+	margin: 0 1rem 0 0;
+	height: 100%;
+}
+.break-line {
+	height: 2px;
+	width: 30%;
+	background-color: #a0a0a0;
+	margin: 1rem 0;
+}
+.price {
+	font-weight: 700;
+	font-size: 0.9rem;
+}
+.plan {
+	font-weight: 200;
+	color: #6e6e6e;
+}
+.resume-l i {
+	font-weight: 900;
+	font-size: 1.1rem;
+}
+.wide-content {
+	margin: 2rem 0 0 0;
+}
+.partner{
+    margin: 9rem 0;
+}
+.partner-main{
+    padding: 3rem
+}
+.partner-main>*{
     margin: 2rem 0;
 }
-.col1-3{
-    width: calc((100% - 4rem)/3);
-}
-.col100{
-    width: 100% ;
-}
-.card{
-    border: 1px solid #8e8e8e;
-    height: 100%;
-}
-.card-header{
-    border-bottom: 1px solid #8e8e8e;
-    width: 100%;
-    text-align: center;
-    height: 3rem;
-    line-height: 3rem;
 
-}
-.card-main{
-    padding: 2rem;
-    height: 100%;
-
-}
-.card ul{
-    list-style-type: none;
-}
-.card ul li{
-    margin: 2rem 0;
-    width: 100%;
-}
-.card i{
-    margin: 0 1rem 0 0 ;
-    height: 100%;
-}
-.break-line{
-    height: 2px;
-    width: 30%;
-    background-color: #a0a0a0;
-    margin: 1rem 0;
-}
-.price{
-    font-weight: 700;
-    font-size: .9rem;
-}
-.plan{
-    font-weight: 200;
-    color: #6e6e6e;
-}
-.resume-l i{
-    font-weight: 900;
-    font-size: 1.1rem;
-}
-.wide-content{
-    margin: 2rem 0 0 0;
-}
 /* ! sezione > container > riga > colonna */
