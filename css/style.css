@@ -36,10 +36,18 @@ h2{
     margin: 3rem 0;
 }
 h3{
-    font-size: 2rem;
+    font-size:  1.7rem;
     margin: 1rem 0;
 }
-.blue a{
+button{
+    border: none;
+    font-size: 1rem;
+    text-align: center;
+    background-color: #0061ff;
+    color: #fff;
+    padding: .5rem 1rem
+}
+.blue-bg a{
     color: #fff;
 }
 .jumbo{
@@ -49,22 +57,27 @@ h3{
     width: 50%;
 }
 /*! UTILS */
-.blue{
-    background-color: blue;
+.blue-bg{
     color: #fff;
+    background-color: #0061ff;
+}
+.blue{
+    color: #0061ff;
+    background-color:#fff;
+
 }
 .container-full{
-    width: 1920px;
+   max-width: 1920px;
     margin: 0 auto;
 }
 
 .container-big{
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .container{
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 .flex{
@@ -72,6 +85,9 @@ h3{
 }
 .between{
     justify-content: space-between;
+}
+.start{
+    justify-content:;
 }
 .ycenter{
     align-items: center;
@@ -99,7 +115,53 @@ h3{
 }
 .col1-3{
     width: calc((100% - 4rem)/3);
+}
+.col100{
+    width: 100% ;
     /*! DEBUG */
-    height: 1000px;
+    height: 200px;
     border: 1px dashed red;
 }
+.card{
+    border: 1px solid #8e8e8e;
+    height: 100%;
+}
+.card-header{
+    border-bottom: 1px solid #8e8e8e;
+    width: 100%;
+    text-align: center;
+    height: 3rem;
+    line-height: 3rem;
+
+}
+.card-main{
+    padding: 2rem;
+    height: 100%;
+
+}
+.card ul{
+    list-style-type: none;
+}
+.card ul li{
+    margin: 2rem 0;
+    width: 100%;
+}
+.card i{
+    margin: 0 1rem 0 0 ;
+    height: 100%;
+}
+.break-line{
+    height: 2px;
+    width: 30%;
+    background-color: #a0a0a0;
+    margin: 1rem 0;
+}
+.price{
+    font-weight: 700;
+    font-size: .9rem;
+}
+.plan{
+    font-weight: 200;
+    color: #6e6e6e;
+}
+/* ! sezione > container > riga > colonna */

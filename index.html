@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
     <title>Dropbox</title>
 </head>
@@ -17,8 +18,6 @@
             <nav>
                 <ul>
                     <!--* logo -->
-                    <li>
-                    </li>
                     <li>
                         <a href="#">Perchè Dropbox</a>
                     </li>
@@ -42,54 +41,132 @@
                 <li>
                     <a href="#">accedi</a>
                 </li>
-                <li class="blue">
+                <li class="blue-bg">
                     <a href="#">inizia</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <!--! section jumbo -->
-    <section class="container-big">
-        <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
-        <div class="flex">
-            <div class="col flex switch between">
-                <div>
-                    finlmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stetto posto. <br>
-                    Dropbox Businesss è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente <br>
-                </div>
-                <div>
-                    <button>inizia la tua prova gratuita</button><br>
-                </div>
-                <div>
-                    annulla in qualsiasi momento
-                </div>
-                <div>
-                    &ddarr;
-                </div>
-            </div>
-            <div>
-                <img src="./img/jumbo.png" alt="" class="jumbo">
-            </div>
-        </div>
-    </section>
-    <!--!section facturation  -->
-    <div class="container">
-        <div class="sel-btn">
-    
-            <h2>Trova il business che fa per te</h2>
-            <!--* selection buttons  -->
+    <main>
+        <!--! section jumbo -->
+        <section class="container-big">
+            <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
             <div class="flex">
-                <div class="round-sel"></div>
-                <span class="m-y">Fatturazione mensile</span>
-                <div class="round-sel"></div>
-                <span class="m-y">Fatturazione annuale</span>
+                <div class="col flex switch between">
+                    <div>
+                        finlmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stetto posto. <br>
+                        Dropbox Businesss è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente <br>
+                    </div>
+                    <div>
+                        <button>inizia la tua prova gratuita</button><br>
+                    </div>
+                    <div>
+                        annulla in qualsiasi momento
+                    </div>
+                    <div>
+                        &ddarr;
+                    </div>
+                </div>
+                <div>
+                    <img src="./img/jumbo.png" alt="" class="jumbo">
+                </div>
             </div>
-        </div>
-        <div class="flex gap between">
-            <div class="col1-3"></div>
-            <div class="col1-3"></div>
-            <div class="col1-3"></div>
-        </div>
-    </div>
+        </section>
+        <!--!section facturation  -->
+        <section class="container">
+            <h2>Trova il business che fa per te</h2>
+            <div class="sel-btn">
+                <!--* selection buttons  -->
+                <div class="flex">
+                    <div class="round-sel"></div>
+                    <span class="m-y">Fatturazione mensile</span>
+                    <div class="round-sel"></div>
+                    <span class="m-y">Fatturazione annuale</span>
+                </div>
+            </div>
+            <div class="flex gap wrap between">
+                <div class="col1-3">
+                    <div class="card flex switch">
+                        <!-- icon + type -->
+                        <div class="card-header">
+                            <i class="fa-solid fa-user"></i>
+                            Singolo
+                        </div>
+                        <!--main card content  -->
+                        <div class="card-main between flex switch">
+                            <!-- title -->
+                            <h3>
+                                Professional
+                            </h3>
+                            <div>
+                                <!-- price -->
+                                <span class="price">&euro; 12.00</span><br>
+                                <!-- plan -->
+                                <span class="plan">/mese</span><br>
+                            </div>
+                            <!--! info list  -->
+                            <ul>
+                                <!-- user -->
+                                <li class="flex">
+                                    <i class="fa-solid fa-user"></i>
+                                    1 utente
+                                </li>
+                                <!-- space -->
+                                <li class="flex">
+                                    <i class="fa-solid fa-folder"></i>
+                                    
+                                    5 TB di spazio di archiviazione sicuro
+                                </li>
+                                <!-- functions -->
+                                <li class="flex">
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                    Funzioni di produttività premium e condivisione file semplice e sicura
+                                </li>
+                            </ul>
+                            <!--! action list -->
+                            <ul>
+                                <li>
+                                    <button>prova gratis per 30 giorni</button>
+                                </li>
+                                <li>
+                                    oppure <a href="#">acquista ora</a>
+                                </li>
+                                <li>
+                                    <div class="break-line"></div>
+                                </li>
+                            </ul>
+                            <span>
+                            </span>
+                            <!--! resume list  -->
+                            <ul>
+                                <li>
+                                    <strong>
+                                        Punti salienti del piano
+                                    </strong>
+                                </li>
+                                <li class="flex">
+                                    <i class="fa-solid fa-check blue"></i>
+                                    Invia file fino a 100 GB con Dropbox Tranfer
+                                </li>
+                                <li class="flex">
+                                    <i class="fa-solid fa-check blue"></i>
+                                    Cartelle offline su dispositivi mobili
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col1-3">
+                    <div class="card"></div>
+                </div>
+                <div class="col1-3">
+                    <div class="card"></div>
+                </div>
+                <div class="col100">
+                    <div class="card"></div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
