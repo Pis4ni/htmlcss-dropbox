@@ -76,6 +76,9 @@ p{
 .col100 {
     width: 100%;
 }
+.y-margin{
+	margin: 10rem 0;
+}
 .blue-bg {
     color: #fff;
 	background-color: #0061ff;
@@ -177,7 +180,7 @@ p{
 	margin: 2rem 0 0 0;
 }
 .partner{
-    margin: 9rem 0;
+    margin: 9rem 0 5rem 0;
 }
 .partner-main{
     padding: 3rem
