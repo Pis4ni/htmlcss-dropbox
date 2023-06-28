@@ -49,10 +49,10 @@
         </header>
         <main>
             <!--!main section jumbo -->
-            <section class="bg">
+            <section class="bg section-jumbo">
                 <div class="container-big">
                     <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
-                    <div class="flex">
+                    <div class="flex j-txt">
                         <div class="col flex switch between">
                             <div>
                                 finlmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stetto posto.
@@ -66,18 +66,18 @@
                             <div>
                                 annulla in qualsiasi momento
                             </div>
-                            <div>
-                                &ddarr;
+                            <div id="d-arr">
+                                <i class="fa-solid fa-arrow-down"></i>
                             </div>
                         </div>
-                        <div>
-                            <img src="./img/jumbo.png" alt="" class="col100">
+                        <div >
+                            <img src="./img/jumbo.png" alt="" class="col100 neg-margin">
                         </div>
                     </div>
                 </div>
             </section>
             <!--!main section facturation  -->
-            <section class="container">
+            <section class="container section-facturation">
                 <h2>Trova il business che fa per te</h2>
                 <div
                     class="sel-btn">
@@ -131,17 +131,14 @@
                                         Funzioni di produttività premium e condivisione file semplice e sicura
                                     </li>
                                 </ul>
-                                <!--! action list -->
-                                <button>prova gratis per 30 giorni</button>
-                                <ul>
-                                    <li>
+                                <!--! button + link  -->
+                                <div class="flex switch between gap br-line">
+                                    <button>prova gratis per 30 giorni</button>
+                                    <span>
                                         oppure
                                         <a href="#">acquista ora</a>
-                                    </li>
-                                    <li>
-                                        <div class="break-line"></div>
-                                    </li>
-                                </ul>
+                                    </span>
+                                </div>
                                 <!--! resume list  -->
                                 <ul>
                                     <li>
@@ -161,7 +158,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- neon ATTENZIONE, CI SONO DELLE CORREZIONI DA FARE -->
                     <div class="col1-3-gap">
                         <div
                             class="card flex switch">
@@ -171,7 +167,6 @@
                                 Team
                             </div>
                             <!--main card content  -->
-                            <!-- neon ATTENZIONE, CI SONO DELLE CORREZIONI DA FARE -->
                             <div
                                 class="card-main flex switch">
                                 <!--* title -->
@@ -203,19 +198,14 @@
                                         Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team
                                     </li>
                                 </ul>
-                                <!--! action list --> 
-                                <!-- neon  ATTENZIONE, LA LISTA è SBAGLIATA IN QUESTO CASO, BISOGNA USARE I TAG SEMANTICI QUANDO HANNO SENSO LOGICO-->
-                                <button>prova gratis per 30 giorni</button>
-                                <ul>
-                                    <li>
+                                <!--! button + link  -->
+                                <div class="flex switch between gap br-line">
+                                    <button>prova gratis per 30 giorni</button>
+                                    <span>
                                         oppure
                                         <a href="#">acquista ora</a>
-                                    </li>
-                                    <!-- neon ATTENZIONE, TRASFORMARE LA BREAKLINE IN UN PSEUDOELEMENTO POICHè NON è BELLO AVERE TAG NELL HTML CHE SONO LI SOLO PER UNA FUNZIONE ESTETICA -->
-                                    <li>
-                                        <div class="break-line"></div>
-                                    </li>
-                                </ul>
+                                    </span>
+                                </div>
                                 <!--! resume list  -->
                                 <ul class="resume-l">
                                     <li>
@@ -288,17 +278,14 @@
                                         Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala
                                     </li>
                                 </ul>
-                                <!--! action list -->
-                                <button>contattaci</button>
-                                <ul>
-                                    <li>
+                                <!--! button + link  -->
+                                <div class="flex switch between gap br-line">
+                                    <button>prova gratis per 30 giorni</button>
+                                    <span>
                                         oppure
                                         <a href="#">acquista ora</a>
-                                    </li>
-                                    <li>
-                                        <div class="break-line"></div>
-                                    </li>
-                                </ul>
+                                    </span>
+                                </div>
                                 <!--! resume list  -->
                                 <ul class="resume-l">
                                     <li>
@@ -357,7 +344,7 @@
                 </div>
             </section>
             <!--!main section partner -->
-            <section class="container ">
+            <section class="container section-partner">
                 <div class="flex partner">
                     <div class="col60">
                         <img src="./img/partner.png" alt="">
@@ -367,15 +354,14 @@
                         <p>
                             Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obbiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui.
                         </p>
-                        <button>
+                        <button class="bn">
                             Trova un partner
                         </button>
                     </div>
                 </div>
             </section>
             <!--!main section operation business  -->
-            <section
-                class="container">
+            <section class="container section-business">
                 <!-- son -->
                 <div>
                     <!--element  -->
@@ -469,8 +455,8 @@
                 </div>
             </section>
             <!--!main carosello -->
-            <div
-                class="container-full wrap flex"><!-- neon ATTENZIONE, RIFARE LAYOUT CON ASPECTRATIO E 4 COLONNE -->
+            <div class="container-full wrap flex section-carosello">
+                <!-- neon ATTENZIONE, RIFARE LAYOUT CON ASPECTRATIO E 4 COLONNE -->
                 <!-- son -->
                 <div
                     class="flex switch col1-3">
@@ -574,7 +560,7 @@
                 </div>
             </div>
             <!--!main section try  -->
-            <section class="container-full bg">
+            <section class="container-full bg section-try">
                 <div class="container flex between y-pad">
                     <div class="col60 flex center ycenter red-txt">
                         <h2>
@@ -582,12 +568,12 @@
                         </h2>
                     </div>
                     <div class="col40 flex center ycenter">
-                        <button>Inizia la tua prova gratuita</button>
+                        <button class="bn no-border">Inizia la tua prova gratuita</button>
                     </div>
                 </div>
             </section>
             <!-- !main section faq -->
-            <section class="container">
+            <section class="container section-faq">
                 <div class="y-margin">
                     <h2>Domande frequenti</h2>
                     <div class="flex between drop-info ycenter">
@@ -654,7 +640,7 @@
                     <h4>
                         Dropbox
                     </h4>
-                    <ul class="language">
+                    <ul class="br-line">
                         <li><a href="#">Applicazione desktop</a></li>
                         <li><a href="#">Perchè Dropbox</a></li>
                         <li><a href="#">Piani</a></li>
