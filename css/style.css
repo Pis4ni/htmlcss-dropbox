@@ -82,6 +82,9 @@ p{
 .y-margin{
 	margin: 10rem 0;
 }
+.y-pad{
+	padding: 5rem 0;
+}
 .blue-bg {
     color: #fff;
 	background-color: #0061ff;
@@ -243,4 +246,11 @@ p{
 }
 .middle-square p{
 	font-size: 1.3rem;
+}
+.bg{
+	background-color:#b4d0e7 ;
+}
+.red-txt{
+	color:#61082b ;
+	
 }
