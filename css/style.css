@@ -12,7 +12,7 @@ nav {
 	margin: 0;
 }
 header {
-	height: 90px;
+	height: 30px;
 	padding: 1rem;
 }
 header ul {
@@ -32,7 +32,7 @@ h1 {
 	margin: 3rem 0;
 }
 h2 {
-	font-size: 2.5rem;
+	font-size: 2.7rem;
 	margin: 3rem 0;
 }
 h3 {
@@ -206,6 +206,9 @@ p{
 	text-align: center;
 	line-height: calc(1920px/6);
 }
+.carosello:hover{
+	box-shadow: inset 0 0 0px 15px #ffffff55;
+}
 
 .carosello{
 	flex-grow: 0;
@@ -242,7 +245,7 @@ p{
 	color: #fff;
 }
 .middle-square{
-	padding: 2rem;
+	padding: 4rem;
 }
 .middle-square p{
 	font-size: 1.3rem;
@@ -251,6 +254,41 @@ p{
 	background-color:#b4d0e7 ;
 }
 .red-txt{
-	color:#61082b ;
-	
+	color:#61082b ;	
+}
+.drop-info{
+	border-top: 1px solid #343434;
+	padding: 2rem;
+}
+.drop-info:last-child{
+	border-bottom: 1px solid #343434;
+}
+.drop-info ul{
+	list-style-type: none;
+}
+.drop-info i{
+	position: relative;
+	bottom: 6px
+}
+
+.more-state {
+	display: none;
+  }
+.more-target {
+	opacity: 0;
+	max-height: 0;
+	font-size: 0;
+	transition: .25s ease;
+  }
+.more-state:checked ~ .more-wrap .more-target {
+	opacity: 1;
+	font-size: inherit;
+	max-height: 999em;
+  }
+.more-state ~ .more-trigger:before {
+	content: '';
+	font-size: 2rem;
+}
+.more-trigger{
+	cursor: pointer;
 }
